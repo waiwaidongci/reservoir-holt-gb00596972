@@ -72,6 +72,7 @@ h2 + .metrics { margin-top:.8rem; }
 .activity { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; }
 .activity p { flex-basis:100%; }
 .pill { display:inline-block; padding:.23rem .55rem; font-size:.84rem; font-weight:700; background:var(--accent-soft); color:var(--ink); border:1px solid var(--line); }
+.tag-row { display:inline-flex; flex-wrap:wrap; gap:.35rem; }
 .pill:is([data-state="failed"],[data-state="returned"],[data-state="blocked"]) { border-color:oklch(58% .16 29); }
 .table-wrap { overflow:auto; }
 table { width:100%; border-collapse:collapse; border-spacing:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
